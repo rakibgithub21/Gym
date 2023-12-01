@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header Style from here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    background: #1a1919;
+    color: white;
+}
+.menu-items ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+}
+
+.menu-items ul li {
+    margin-left: 30px;
+}
+
+/* .menu-items ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: rgb(241, 138, 100);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.menu-items ul li:hover::after {
+    width: 100%;
+} */
+
+.menu-items li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: tomato;
+    transition: 0.5s;
+}
+/* ----------------------Header Hover------------------------ */
+nav h1:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+.menu-items li:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.menu-items li:hover::after{
+    width: 100%;
+}
+/* -------------------------Hover End----------------------*/
+
+
+
+/* Header End------------______________------------- */
+
+.banner-container{
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #1a1919;
+}
+.banner-image img{
+    width:100%;
+}
+.banner-description{
+    margin-left: 50px;
+}
+.banner-text{
+    color: orange;
+    font-size: 20px;
+    margin: 10px;
+    font-weight:600;
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+.title2{
+    font-size: 25px;
+    margin: 10px;
+}
+.banner-button{
+    padding: 15px 30px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(90, 133, 3);
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.5s;
+
+}
+
+.banner-button:hover{
+    color:rgb(170, 255, 0) ;
+    background-color: rgb(226, 69, 12);
+}
