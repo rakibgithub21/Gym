@@ -110,3 +110,37 @@ nav h1:hover{
     color:rgb(170, 255, 0) ;
     background-color: rgb(226, 69, 12);
 }
+
+/* main section start here */
+
+.card-container h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card1{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 5px 5px  13px black;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    transition: 0.8s;
+}
+.card1:hover{
+    margin-top: -20px;
+    border: 2px solid salmon;
+    color: rgb(228, 107, 107);
+}
+.card1 img{
+    width: 50px;
+}
+
+.allCard{
+    display: flex;
+    gap: 30px;
+    margin: 30px 100px;
+}
